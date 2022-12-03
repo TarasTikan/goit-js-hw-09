@@ -1,5 +1,4 @@
 const formEl = document.querySelector('.form')
-console.log(formEl.elements)
 
 formEl.addEventListener('submit', onAddProm)
 function onAddProm (e) {
