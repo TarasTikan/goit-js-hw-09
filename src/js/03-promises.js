@@ -8,7 +8,7 @@ function onAddProm (e) {
   let position = Number(formEl.amount.value);
   let step = Number(formEl.step.value)
   for(let i = 1; i <= position; i += 1){
-    createPromise(position, delay)
+    createPromise(i, delay)
   .then(({ position, delay }) => {
     console.log(`✅ Fulfilled promise ${position} in ${delay}ms`);
   })
