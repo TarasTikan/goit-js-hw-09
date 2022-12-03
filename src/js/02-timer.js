@@ -67,5 +67,5 @@ function onStartTime (selectedDates) {
 
 
 function addLeadingZero(value) {
-    value.toString().padStart(2, '0')
+     return value.toString().padStart(2, '0')
 }
